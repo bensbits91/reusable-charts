@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-charts-and-graphs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointChartsAndGraphs/SharePointChartsAndGraphsWebPart.js",
+          "manifest": "./src/webparts/sharePointChartsAndGraphs/SharePointChartsAndGraphsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointChartsAndGraphsWebPartStrings": "lib/webparts/sharePointChartsAndGraphs/loc/{locale}.js"
+  }
+}

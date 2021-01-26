@@ -1,0 +1,62 @@
+#workbenchPageContent, .CanvasZone {
+    max-width: unset;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+h2 {
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 100;
+}
+h3 {
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.vis-wrap {
+    margin: 90px;
+}
+
+
+
+.group {
+    padding: 0 100px;
+}
+.group > div {
+    padding: 50px;
+}
+
+
+.tiny {
+    margin-left: 64px;
+}
+
+
+
+.customized-tooltip-content {
+    background-color: #eee;
+    padding: 20px;
+}
+
+
+.recharts-wrapper svg.recharts-surface {
+    overflow: visible;
+}
+
+
+
+.group.scatter .tiny {
+    padding-bottom: 0;
+}
+
+
+.group.pie .ms-Stack {
+    padding-bottom: 0;
+}
+.group.pie .ms-Stack > div:first-child .recharts-wrapper {
+    margin-right: 100px;
+}
